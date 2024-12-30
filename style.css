@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    background: url(https://img.freepik.com/premium-photo/orange-pink-ink-water-black-background-generative-ai-generative-ai_170984-9015.jpg?semt=ais_hybrid);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.registration-container {
+    width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.registration-container h1 {
+    text-align: center;
+}
+
+.registration-container label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.registration-container input, .registration-container textarea {
+    width: 95%;
+    height: 30px;
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.registration-container button {
+    width: 100%;
+    height: 40px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#error-message {
+    color: red;
+}
